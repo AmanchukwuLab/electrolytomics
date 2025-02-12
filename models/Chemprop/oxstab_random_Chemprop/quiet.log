@@ -1,0 +1,131 @@
+Fold 0
+Warning: SMILES string in val could not be found in data file, and likely came from a secondary data file. The pickle file of split indices can only indicate indices for a single file and will not be generated.
+Model 0 best validation rmse = 0.208000 on epoch 93
+Model 0 test rmse = 0.208802
+Model 0 test IE rmse = 0.208802
+Model 0 test r2 = 0.968125
+Model 0 test IE r2 = 0.968125
+Model 1 best validation rmse = 0.211977 on epoch 99
+Model 1 test rmse = 0.218898
+Model 1 test IE rmse = 0.218898
+Model 1 test r2 = 0.964968
+Model 1 test IE r2 = 0.964968
+Model 2 best validation rmse = 0.204382 on epoch 94
+Model 2 test rmse = 0.222837
+Model 2 test IE rmse = 0.222837
+Model 2 test r2 = 0.963696
+Model 2 test IE r2 = 0.963696
+Ensemble test rmse = 0.206891
+Ensemble test IE rmse = 0.206891
+Ensemble test r2 = 0.968706
+Ensemble test IE r2 = 0.968706
+Fold 1
+Warning: SMILES string in val could not be found in data file, and likely came from a secondary data file. The pickle file of split indices can only indicate indices for a single file and will not be generated.
+Model 0 best validation rmse = 0.206146 on epoch 99
+Model 0 test rmse = 0.216207
+Model 0 test IE rmse = 0.216207
+Model 0 test r2 = 0.965824
+Model 0 test IE r2 = 0.965824
+Model 1 best validation rmse = 0.206276 on epoch 99
+Model 1 test rmse = 0.209596
+Model 1 test IE rmse = 0.209596
+Model 1 test r2 = 0.967882
+Model 1 test IE r2 = 0.967882
+Model 2 best validation rmse = 0.210928 on epoch 97
+Model 2 test rmse = 0.214876
+Model 2 test IE rmse = 0.214876
+Model 2 test r2 = 0.966243
+Model 2 test IE r2 = 0.966243
+Ensemble test rmse = 0.204640
+Ensemble test IE rmse = 0.204640
+Ensemble test r2 = 0.969383
+Ensemble test IE r2 = 0.969383
+Fold 2
+Warning: SMILES string in val could not be found in data file, and likely came from a secondary data file. The pickle file of split indices can only indicate indices for a single file and will not be generated.
+Model 0 best validation rmse = 0.199371 on epoch 94
+Model 0 test rmse = 0.204748
+Model 0 test IE rmse = 0.204748
+Model 0 test r2 = 0.969350
+Model 0 test IE r2 = 0.969350
+Model 1 best validation rmse = 0.206297 on epoch 89
+Model 1 test rmse = 0.221155
+Model 1 test IE rmse = 0.221155
+Model 1 test r2 = 0.964241
+Model 1 test IE r2 = 0.964241
+Model 2 best validation rmse = 0.205778 on epoch 97
+Model 2 test rmse = 0.205215
+Model 2 test IE rmse = 0.205215
+Model 2 test r2 = 0.969210
+Model 2 test IE r2 = 0.969210
+Ensemble test rmse = 0.200753
+Ensemble test IE rmse = 0.200753
+Ensemble test r2 = 0.970535
+Ensemble test IE r2 = 0.970535
+Fold 3
+Warning: SMILES string in val could not be found in data file, and likely came from a secondary data file. The pickle file of split indices can only indicate indices for a single file and will not be generated.
+Model 0 best validation rmse = 0.199375 on epoch 97
+Model 0 test rmse = 0.214346
+Model 0 test IE rmse = 0.214346
+Model 0 test r2 = 0.966410
+Model 0 test IE r2 = 0.966410
+Model 1 best validation rmse = 0.213253 on epoch 79
+Model 1 test rmse = 0.222765
+Model 1 test IE rmse = 0.222765
+Model 1 test r2 = 0.963719
+Model 1 test IE r2 = 0.963719
+Model 2 best validation rmse = 0.206612 on epoch 95
+Model 2 test rmse = 0.218702
+Model 2 test IE rmse = 0.218702
+Model 2 test r2 = 0.965030
+Model 2 test IE r2 = 0.965030
+Ensemble test rmse = 0.209463
+Ensemble test IE rmse = 0.209463
+Ensemble test r2 = 0.967922
+Ensemble test IE r2 = 0.967922
+Fold 4
+Warning: SMILES string in val could not be found in data file, and likely came from a secondary data file. The pickle file of split indices can only indicate indices for a single file and will not be generated.
+Model 0 best validation rmse = 0.206187 on epoch 83
+Model 0 test rmse = 0.221874
+Model 0 test IE rmse = 0.221874
+Model 0 test r2 = 0.964009
+Model 0 test IE r2 = 0.964009
+Model 1 best validation rmse = 0.205215 on epoch 93
+Model 1 test rmse = 0.219666
+Model 1 test IE rmse = 0.219666
+Model 1 test r2 = 0.964722
+Model 1 test IE r2 = 0.964722
+Model 2 best validation rmse = 0.207303 on epoch 95
+Model 2 test rmse = 0.216796
+Model 2 test IE rmse = 0.216796
+Model 2 test r2 = 0.965637
+Model 2 test IE r2 = 0.965637
+Ensemble test rmse = 0.210104
+Ensemble test IE rmse = 0.210104
+Ensemble test r2 = 0.967726
+Ensemble test IE r2 = 0.967726
+5-fold cross validation
+	Seed 0 ==> test rmse = 0.206891
+		Seed 0 ==> test IE rmse = 0.206891
+	Seed 0 ==> test r2 = 0.968706
+		Seed 0 ==> test IE r2 = 0.968706
+	Seed 1 ==> test rmse = 0.204640
+		Seed 1 ==> test IE rmse = 0.204640
+	Seed 1 ==> test r2 = 0.969383
+		Seed 1 ==> test IE r2 = 0.969383
+	Seed 2 ==> test rmse = 0.200753
+		Seed 2 ==> test IE rmse = 0.200753
+	Seed 2 ==> test r2 = 0.970535
+		Seed 2 ==> test IE r2 = 0.970535
+	Seed 3 ==> test rmse = 0.209463
+		Seed 3 ==> test IE rmse = 0.209463
+	Seed 3 ==> test r2 = 0.967922
+		Seed 3 ==> test IE r2 = 0.967922
+	Seed 4 ==> test rmse = 0.210104
+		Seed 4 ==> test IE rmse = 0.210104
+	Seed 4 ==> test r2 = 0.967726
+		Seed 4 ==> test IE r2 = 0.967726
+Overall test rmse = 0.206370 +/- 0.003416
+	Overall test IE rmse = 0.206370 +/- 0.003416
+Overall test r2 = 0.968854 +/- 0.001026
+	Overall test IE r2 = 0.968854 +/- 0.001026
+Elapsed time = 10:19:23

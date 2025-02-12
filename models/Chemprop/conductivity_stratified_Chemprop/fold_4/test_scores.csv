@@ -1,0 +1,2 @@
+Task,Mean rmse,Standard deviation rmse,Fold 0 rmse,Mean r2,Standard deviation r2,Fold 0 r2
+conductivity_log,0.20841414119733573,0.0,0.20841414119733573,0.9177044872193646,0.0,0.9177044872193646
