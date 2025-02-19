@@ -119,6 +119,6 @@ Please consider citing this work if you use our datasets or codes:
   author={Kumar, Ritesh and Vu, Minh Canh and Ma, Peiyuan and Amanchukwu, Chibueze},
   journal={ChemRxiv},
   year={2024},
-  doi={10.26434/chemrxiv-2024-vqtc}
+  doi={10.26434/chemrxiv-2024-vqtc7}
 }
 ```
