@@ -111,5 +111,14 @@ The following libraries are required (refer `environment.yml` file):
 - Optuna
 - OpenTSNE
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+## Citation
+Please consider citing this work if you use our datasets or work:
+```plaintext
+@article{kumar2024electrolytomics,
+  title={Electrolytomics: A unified big data approach for electrolyte design and discovery},
+  author={Kumar, Ritesh and Vu, Minh Canh and Ma, Peiyuan and Amanchukwu, Chibueze},
+  journal={ChemRxiv},
+  year={2024},
+  doi={10.26434/chemrxiv-2024-vqtc}
+}
+```
