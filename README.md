@@ -1,6 +1,6 @@
 # *Electrolytomics*
 
-This repository contains codes, datasets, model checkpoints and hyperparameters for the article "Electrolytomics: A unified big data approach for rational design and discovery of liquid electrolytes". The main objective of this work is to utilize machine learning models to screen efficient electrolytes for next-generation batteries, e.g., lithium metal batteries (LMBs) from a large virtual search space.
+This repository contains codes, datasets, model checkpoints and hyperparameters for the article "Electrolytomics: A unified big data approach for rational design and discovery of liquid electrolytes" ([link to ChemRxiv](https://doi.org/10.26434/chemrxiv-2024-vqtc7)). The main objective of this work is to utilize machine learning models to screen efficient electrolytes for next-generation batteries, e.g., lithium metal batteries (LMBs) from a large virtual search space.
 
 ## Project Overview
 The repository includes:
@@ -112,7 +112,7 @@ The following libraries are required (refer `environment.yml` file):
 - OpenTSNE
 
 ## Citation
-Please consider citing this work if you use our datasets or work:
+Please consider citing this work if you use our datasets or codes:
 ```plaintext
 @article{kumar2024electrolytomics,
   title={Electrolytomics: A unified big data approach for electrolyte design and discovery},
