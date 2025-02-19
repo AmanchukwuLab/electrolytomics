@@ -1,0 +1,94 @@
+Input SMILES,Source,Last Update Date Exact,Supplier Name,Purity,Amount,Measure,LeadTime_Days,Price_USD,USD/g,USD/mol,USD/l,Product_ID
+CC(=O)OC(C#N)C#N,ChemSpace,,Key Organics Limited (BIONET),95,1.0,g,40,1169.0,1169.0,,,AS-39788
+CC(=O)OC=O,ChemSpace,,Toronto Research Chemicals,90,5.0,g,50,670.0,134.0,,,F693450
+CC(C#N)C#N,ChemSpace,,Advanced ChemBlock Inc,95,5.0,g,30,2024.0,404.8,,,L19456
+CC(C#N)C(C)(F)F,ChemSpace,,Enamine Ltd,95,1.0,g,30,969.0,969.0,,,EN300-1943976
+CC(C#N)C(F)(F)C(F)(F)F,ChemSpace,,Enamine Ltd,95,1.0,g,30,1183.0,1183.0,,,EN300-1951130
+CC(C#N)C(F)(F)C(F)F,ChemSpace,,Enamine Ltd,95,1.0,g,30,1183.0,1183.0,,,EN300-1946618
+CC(C#N)C(F)(F)F,ChemSpace,,Enamine Ltd,95,1.0,g,30,723.0,723.0,,,EN300-1971129
+CC(C#N)C(F)C(F)(F)F,ChemSpace,,Enamine Ltd,95,1.0,g,30,1414.0,1414.0,,,EN300-1953141
+CC(C#N)C(F)F,ChemSpace,,Enamine Ltd,95,1.0,g,30,804.0,804.0,,,EN300-1928870
+CC(C#N)S(F)(=O)=O,ChemSpace,,Enamine Ltd,95,1.0,g,30,854.0,854.0,,,EN300-224086
+CC(C)(C#N)C(F)(F)C(F)F,ChemSpace,,Enamine Ltd,95,1.0,g,30,1085.0,1085.0,,,EN300-1946621
+CC(C)(C#N)C(F)F,ChemSpace,,eNovation CN,95,1.0,g,35,2461.0,2461.0,,,Y3293223
+CC(C)(CCl)C#N,ChemSpace,,BLD Pharmatech GmbH,95,1.0,g,30,573.0,573.0,,,BD01031440
+CC(C)(Cl)C#N,ChemSpace,,eNovation CN,95,1.0,g,35,1196.0,1196.0,,,Y3222907
+CC(C)(F)C#N,ChemSpace,,AA BLOCKS,90,10.0,g,35,6937.0,693.7,,,AA01ACBB
+CC(C)C(C)C#N,ChemSpace,,"BLD Pharmatech Co., Limited",95,5.0,g,30,1011.0,202.2,,,BD01009914
+CC(C)C(Cl)C#N,ChemSpace,,"BLD Pharmatech Co., Limited",95,5.0,g,30,1215.0,243.0,,,BD00984652
+CC(C)CC#N,ChemSpace,,Toronto Research Chemicals,90,500.0,mg,50,102.0,204.0,,,I289746
+CC(CC(F)(F)C(F)(F)F)C#N,ChemSpace,,Enamine Ltd,95,1.0,g,30,1085.0,1085.0,,,EN300-1941237
+CC(CC(F)(F)F)C#N,ChemSpace,,Enamine Ltd,95,1.0,g,30,887.0,887.0,,,EN300-1928945
+CC(CCC#N)C#N,ChemSpace,,Angene US,98,25.0,g,40,8.0,0.32,,,AG003B99
+CC(CCC(F)(F)F)C#N,ChemSpace,,Enamine Ltd,95,1.0,g,30,887.0,887.0,,,EN300-1953200
+CC(CCF)C#N,ChemSpace,,Enamine Ltd,95,1.0,g,30,1249.0,1249.0,,,EN300-1805549
+CC(CCl)C#N,ChemSpace,,Accela ChemBio Inc. CN,95,1.0,g,30,1044.0,1044.0,,,SY083557
+CC(CF)C#N,ChemSpace,,Enamine Ltd,95,1.0,g,30,1348.0,1348.0,,,EN300-1856734
+CC(CS(F)(=O)=O)C#N,ChemSpace,,eNovation CN,95,1.0,g,35,1650.0,1650.0,,,Y3154187
+CC(Cl)(Cl)C#N,ChemSpace,,eNovation CN,95,1.0,g,35,2156.0,2156.0,,,Y3256455
+CC(Cl)C#N,ChemSpace,,Angene US,98,1.0,g,40,9.0,9.0,,,AG001VTN
+CC(F)(F)C#N,ChemSpace,,AA BLOCKS,90,25.0,g,35,1043.0,41.72,,,AA00DCC5
+CC(F)(F)C(C)(C)C#N,ChemSpace,,Enamine Ltd,95,1.0,g,30,887.0,887.0,,,EN300-1946278
+CC(F)(F)C(F)(F)C(F)(F)F,ChemSpace,,AA BLOCKS,90,100.0,g,35,2912.0,29.12,,,AA01WA1V
+CC(F)(F)CC#N,ChemSpace,,eNovation CN,95,1.0,g,35,1932.0,1932.0,,,Y3135671
+CC1CC(=O)OC1=O,ChemSpace,,Angene US,98,100.0,g,40,57.0,0.57,,,AG003S4C
+CCC(C#N)C#N,ChemSpace,,BLD Pharmatech GmbH,95,1.0,g,30,206.0,206.0,,,BD00853735
+CCC(C)(C)C#N,ChemSpace,,"BLD Pharmatech Co., Limited",95,1.0,g,30,480.0,480.0,,,BD00878090
+CCC(C)(C)CC#N,ChemSpace,,Enamine Ltd,95,1.0,g,30,804.0,804.0,,,EN300-1829922
+CCC(C)C#N,ChemSpace,,Angene US,95,5.0,g,40,41.0,8.2,,,AG003HP0
+CCC(C)CC#N,ChemSpace,,BLD Pharmatech GmbH,97,1.0,g,30,426.0,426.0,,,BD00952787
+CCC(C=O)C#N,ChemSpace,,ChemShuttle,95,10.0,g,35,2310.0,231.0,,,169152
+CCC(CC)C#N,ChemSpace,,Accela ChemBio Inc.,95,25.0,g,30,900.0,36.0,,,SY059782
+CCC(Cl)C#N,ChemSpace,,"BLD Pharmatech Co., Limited",95,5.0,g,30,1327.0,265.4,,,BD01062969
+CCC(F)(F)C#N,ChemSpace,,FCH Group,95,1.0,g,30,1216.0,1216.0,,,FCH3143869
+CCC1CC(=O)OC1=O,ChemSpace,,eNovation CN,95,1.0,g,35,1828.0,1828.0,,,Y3154562
+CCCC(C)CC#N,ChemSpace,,Enamine Ltd,95,1.0,g,30,558.0,558.0,,,EN300-1854409
+CCOC(=O)C#N,ChemSpace,,Chemenu Inc.,95,1.0,kg,50,622.0,0.622,,,CM326204
+CCOC(=O)C(C#N)C#N,ChemSpace,,Enamine MADE BBs,95,1.0,g,30,492.0,492.0,,,BBV-39736790
+CCOC(=O)C(F)Cl,ChemSpace,,ChemScene LLC,98,100.0,g,30,139.0,1.39,,,CS-0434923
+COC(=O)C#N,ChemSpace,,Angene US,99,1.0,g,40,67.0,67.0,,,AG0024NL
+COC(=O)C(Cl)=O,ChemSpace,,Angene US,98,25.0,g,40,10.0,0.4,,,AG0038MI
+COC(=O)C(F)(F)Cl,ChemSpace,,Chemenu Inc.,95,500.0,g,50,138.0,0.276,,,CM326330
+COC(=O)C(F)(F)F,ChemSpace,,TCI America,98,500.0,g,30,152.0,0.304,,,T0680
+COC(=O)C=O,ChemSpace,,Chemenu Inc.,95,500.0,g,50,286.0,0.572,,,CM398246
+COC(=O)CF,ChemSpace,,Enamine MADE BBs,95,1.0,g,30,657.0,657.0,,,BBV-38355549
+COC(C)C#N,ChemSpace,,Angene US,95,5.0,g,40,448.0,89.6,,,AG00D1FL
+ClC(=O)CC#N,ChemSpace,,Angene US,95,1.0,g,40,689.0,689.0,,,AG001SBN
+ClC(C=O)C#N,ChemSpace,,Angel Pharmatech Ltd.,95,5.0,g,40,1298.0,259.6,,,AG322782
+ClC(Cl)(C#N)C#N,ChemSpace,,Key Organics Limited (BIONET),90,5.0,g,40,997.0,199.4,,,VS-08532
+ClC(Cl)(Cl)C#N,ChemSpace,,Manchester Organics Limited,90,100.0,g,30,71.0,0.71,,,T61749
+ClC(Cl)C#N,ChemSpace,,Toronto Research Chemicals,90,100.0,g,50,358.0,3.58,,,D431740
+ClCC(Cl)C#N,ChemSpace,,Accela ChemBio Inc.,95,10.0,g,30,75.0,7.5,,,SY005683
+ClCCC#N,ChemSpace,,Toronto Research Chemicals,90,500.0,mg,50,89.0,178.0,,,C381248
+FC(=O)C(F)(F)Cl,ChemSpace,,Manchester Organics Limited,97,20.0,g,30,221.0,11.05,,,E26264
+FC(C#N)C(F)(F)F,ChemSpace,,Manchester Organics Limited,97,5.0,g,30,71.0,14.2,,,X29024
+FC(CC#N)C(F)(F)F,ChemSpace,,Enamine Ltd,95,1.0,g,30,804.0,804.0,,,EN300-1936492
+FC(Cl)C#N,ChemSpace,,AA BLOCKS,90,25.0,g,35,811.0,32.44,,,AA007D78
+FC(Cl)C(Cl)=O,ChemSpace,,Accela ChemBio Inc.,95,1.0,g,30,233.0,233.0,,,SY236230
+FC(F)(F)C(C#N)C(F)(F)F,ChemSpace,,Enamine MADE BBs,95,1.0,g,30,887.0,887.0,,,BBV-43521142
+FC(F)(F)C(F)(F)C(F)(F)C#N,ChemSpace,,FCH Group,95,1.0,g,30,295.0,295.0,,,FCH918381
+FC(F)(F)C(F)(F)C(F)(F)CC#N,ChemSpace,,Enamine Ltd,95,1.0,g,30,887.0,887.0,,,EN300-1970534
+FC(F)(F)C(F)(F)CC#N,ChemSpace,,Enamine Ltd,95,1.0,g,30,723.0,723.0,,,EN300-1928909
+FC(F)(F)C(F)(F)CCC#N,ChemSpace,,Enamine Ltd,95,1.0,g,30,887.0,887.0,,,EN300-691865
+FC(F)(F)C1(CC1)C#N,ChemSpace,,ChemShuttle,95,25.0,g,35,14265.0,570.6,,,TQP2897
+FC(F)(F)C1CC(=O)OC1=O,ChemSpace,,Enamine Ltd,95,1.0,g,30,1709.0,1709.0,,,EN300-1932290
+FC(F)(F)CC#N,ChemSpace,,Key Organics Limited (BIONET),97,25.0,g,40,399.0,15.96,,,FS-4537
+FC(F)(F)CCC#N,ChemSpace,,AA BLOCKS,90,25.0,g,35,1122.0,44.88,,,AA006CQL
+FC(F)C(Cl)=O,ChemSpace,,Manchester Organics Limited,97,100.0,g,30,2104.0,21.04,,,P24757
+FC(F)C(F)(F)C(F)(F)C(F)(F)C#N,ChemSpace,,Manchester Organics Limited,90,25.0,g,30,1605.0,64.2,,,X62558
+FC(F)C(F)(F)CC#N,ChemSpace,,Enamine Ltd,95,1.0,g,30,804.0,804.0,,,EN300-1932204
+FC(F)C(F)(F)CCC#N,ChemSpace,,Enamine Ltd,95,1.0,g,30,887.0,887.0,,,EN300-1946605
+FC(F)C(F)=O,ChemSpace,,Manchester Organics Limited,90,100.0,g,30,992.0,9.92,,,B48900
+FC(F)C1CC(=O)OC1=O,ChemSpace,,Enamine Ltd,95,1.0,g,30,1709.0,1709.0,,,EN300-1945788
+FC(F)CCC#N,ChemSpace,,Enamine Ltd,95,1.0,g,30,969.0,969.0,,,EN300-1928868
+FC1(F)C(=O)OC(=O)C1(F)F,ChemSpace,,"BLD Pharmatech Co., Limited",98,25.0,g,30,647.0,25.88,,,BD153415
+FC1(F)CC(=O)OC1=O,ChemSpace,,"BLD Pharmatech Co., Limited",97,5.0,g,30,3296.0,659.2,,,BD00941766
+FC1(F)CC1C#N,ChemSpace,,UORSY,95,1.0,g,30,903.0,903.0,,,BBV-580359
+FCC(Cl)=O,ChemSpace,,FCH Group,95,1.0,g,30,1232.0,1232.0,,,FCH3459530
+FCCCC#N,ChemSpace,,BLD Pharmatech GmbH,95,1.0,g,30,608.0,608.0,,,BD00903876
+FS(=O)(=O)CC#N,ChemSpace,,Key Organics Limited (BIONET),95,5.0,g,40,1841.0,368.2,,,ES-2170
+FS(=O)(=O)CCC#N,ChemSpace,,Enamine Ltd,95,1.0,g,30,2186.0,2186.0,,,EN300-728161
+N#CC(CC(C#N)C#N)C#N,ChemSpace,,Enamine MADE BBs,95,1.0,g,30,1216.0,1216.0,,,BBV-39685794
+O=C1CCC(=O)N1C#N,ChemSpace,,BLD Pharmatech GmbH,95,5.0,g,30,3796.0,759.2,,,BD00890454
+O=C1CCC(=O)O1,ChemSpace,,ChemScene LLC,98,1.0,kg,30,66.0,0.066,,,CS-0011581
+O=COCC#N,ChemSpace,,ChemScene LLC,95,100.0,g,30,396.0,3.96,,,CS-0181845

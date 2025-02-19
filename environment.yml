@@ -1,0 +1,30 @@
+name: electrolytomics
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.12
+  - pip
+  - Babel
+  - chemprop=1.5.2
+  - dask
+  - ipykernel
+  - ipython
+  - ipywidgets
+  - jupyter
+  - jupyterlab
+  - lightgbm
+  - mordred
+  - numpy
+  - openTSNE
+  - optuna
+  - pandas
+  - plotly
+  - PubChemPy
+  - rdkit
+  - SALib
+  - scikit-learn
+  - scipy
+  - seaborn
+  - shap
+  - thermo

@@ -1,50 +1,74 @@
-# Electrolytomics
+# *Electrolytomics*
 
-This repository contains codes, datasets, and model checkpoints for the article "Electrolytomics: A unified big data approach for rational design and discovery of liquid electrolytes". The main objective of this work is to utilize machine learning models to screen efficient electrolytes for next-generation batteries, e.g., lithium metal batteries (LMBs) from a large virtual search space.
+This repository contains codes, datasets, model checkpoints and hyperparameters for the article "Electrolytomics: A unified big data approach for rational design and discovery of liquid electrolytes". The main objective of this work is to utilize machine learning models to screen efficient electrolytes for next-generation batteries, e.g., lithium metal batteries (LMBs) from a large virtual search space.
 
 ## Project Overview
 The repository includes:
-1. All labeled and unlabeled datasets used in the study.
-2. All codes and notebooks to replicate main findings and figures in the main text of this study.
+1. Labeled and unlabeled datasets used in the study.
+2. Codes and notebooks to replicate main findings and figures in the main text of this study.
 3. Trained model checkpoints used in the study to screen electrolytes.
 
 ## Directory Structure
 ```plaintext
 .
 ├── README.md
+├── environment.yml
 ├── datasets
-│   ├── labeled_data.csv
-│   ├── unlabeled_data.csv
-│   └── virtual_search_space.csv
+│   ├── featurized
+│   │   ├── CE
+│   │   ├── conductivity
+│   │   └── oxstab
+│   ├── other
+│   ├── predicted
+│   │   ├── CE
+│   │   ├── conductivity
+│   │   └── oxstab
+│   └── raw
+│       ├── CE
+│       ├── conductivity
+│       └── oxstab
+├── hyperparameters
+│       ├── CE
+│       ├── conductivity
+│       └── oxstab
 ├── models
-|   ├── Chemprop
-│   |   ├── model_1.pkl
-│   ├── SL
-│   |   ├── model_3.pkl
-│   └── model_4.pkl
+│   ├── Chemprop
+│   └──SL
 └── notebooks
-    ├── data_preprocessing.ipynb
-    ├── model_training.ipynb
-    └── model_evaluation.ipynb
+    ├── Chemprop_BHO_training_prediction
+    ├── SHAP_sensitivity_analysis
+    ├── SL_BHO_training_prediction
+    ├── creating-data-splits
+    ├── eScore_calculations
+    ├── featurization
+    ├── manuscript-plots
+    └── reduced_embeddings
 ```
 
 ## Datasets
-The following datasets are used in this project:
+The datasets are arranged in the following directories:
 
-1. **Labeled dataset**
-   - File `labeled_data.csv` inside the directory `datasets`: this is the labeled dataset used for training machine learning models. The Jupyter notebook contains description for columns of features and target variable.
-
-2. **Unlabeled dataset**
-   - File `unlabeled_data.csv` inside the directory `datasets`: this is the unlabeled dataset used for predictions by the trained models.
-
-3. **Virtual chemical search space**
-   - File `virtual_search_space.csv` inside the directory `datasets`: this is the virtual search space containing potential electrolyte candidates.
+1. `datasets/raw`: Contain raw datasets without any features for each of the three properties (inside `conductivity`, `oxstab`, and `CE`). 
+2. `datasets/featurized`: Contain featurized datasets for both shallow learning and Chemprop models for each of the three properties (inside `conductivity`, `oxstab`, and `CE`). 
+3. `datasets/predicted`: Contain files with ML predictions for each of the three properties (inside `conductivity`, `oxstab`, and `CE`)
+4. `datasets/other`: Other relevant files, e.g., t-SNE embeddings used in the present study.
 
 ## Notebooks
-The repository includes the Jupyter notebooks with file names `data_preprocessing.ipynb`, `model_training.ipynb`, and `model_evaluation.ipynb`. Run the notebooks to reproduce the results of the study.
+The repository includes the Jupyter notebooks for different purposes inside:
+1. `notebooks/creating-data-splits`: For generating all data splits used in the present study.
+2. `notebooks/featurization`: For generating all types of features used in the present study.
+3. `notebooks/Chemprop_BHO_training_prediction`: For performing Bayesian hyerparameter optimization (BHO), training, and predicting Chemprop models
+4. `notebooks/SL_BHO_training_prediction`: For performing Bayesian hyerparameter optimization (BHO), training, and predicting shallow learning models (LightGBM and PLSR).
+5. `notebooks/SHAP_sensitivity_analysis`: For performing SHAP and sensitivity analyses on shallow learning models (LightGBM and PLSR).
+6. `notebooks/eScore_calculations`: For calculating eScores.
+7. `notebooks/reduced_embeddings`: For obtaining and plotting t-SNE reduced embeddings.
+8. `notebooks/manuscript-plots`: For reproduing figures in the main text of this study.
 
 ## Model checkpoints
-All trained model checkpoints are stored inside the directory `models` containing files named `model_1.pkl`, `model_2.pkl`, `model_3.pkl`, and `model_4.pkl` for each of the models used in this study.
+The trained model checkpoints for shallow learning (in `.sav` format) and Chemprop models are stored inside the directory `models` for each of the three properties (inside `conductivity`, `oxstab`, and `CE`).
+
+## Hyperparameters
+The exact hyperparameters obtained after BHO for for shallow learning and Chemprop models are also provided inside the directory `hyperparameters` for each of the three properties (inside `conductivity`, `oxstab`, and `CE`).
 
 ## How to Run
 Follow these steps to run the notebooks:
@@ -55,9 +79,10 @@ Follow these steps to run the notebooks:
    cd electrolytomics
    ```
 
-2. Install the required dependencies:
+2. Create virutal environment, install the required dependencies, and activate the virtual environment:
    ```bash
-   pip install -r requirements.txt
+   conda env create -f environment.yml
+   conda activate electrolytomics
    ```
 
 3. Launch Jupyter Notebook:
@@ -68,7 +93,7 @@ Follow these steps to run the notebooks:
 4. Open the notebooks from the `notebooks` directory and run them cell-by-cell.
 
 ## Dependencies
-The following libraries are required:
+The following libraries are required (refer `environment.yml` file):
 - Python 3.8+
 - Jupyter Notebook
 - Pandas
@@ -77,8 +102,14 @@ The following libraries are required:
 - Scikit Learn
 - Pickle
 - Matplotlib
-
-Install the required libraries using the provided `requirements.txt` file.
+- Seaborn
+- Shap
+- SALib
+- LightGBM
+- Chemprop
+- RDKit
+- Optuna
+- OpenTSNE
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
