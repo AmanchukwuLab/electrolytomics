@@ -1,6 +1,6 @@
 # *Electrolytomics*
 
-This repository contains codes, datasets, model checkpoints and hyperparameters used for the article "Electrolytomics: A unified big data approach for rational design and discovery of liquid electrolytes" ([link to ChemRxiv](https://doi.org/10.26434/chemrxiv-2024-vqtc7)). The main objective of this work is to utilize machine learning models to screen efficient electrolytes for next-generation batteries, e.g., lithium metal batteries (LMBs), from a large virtual search space.
+This repository contains codes, datasets, model checkpoints and hyperparameters used for the article "Electrolytomics: A unified big data approach for rational design and discovery of liquid electrolytes" ([link to paper](https://pubs.acs.org/doi/10.1021/acs.chemmater.4c03196)). The main objective of this work is to utilize machine learning models to screen efficient electrolytes for next-generation batteries, e.g., lithium metal batteries (LMBs), from a large virtual search space.
 
 ## Project Overview
 The repository includes:
@@ -117,8 +117,10 @@ Please consider citing this work if you use our datasets or codes:
 @article{kumar2024electrolytomics,
   title={Electrolytomics: A unified big data approach for electrolyte design and discovery},
   author={Kumar, Ritesh and Vu, Minh Canh and Ma, Peiyuan and Amanchukwu, Chibueze},
-  journal={ChemRxiv},
-  year={2024},
-  doi={10.26434/chemrxiv-2024-vqtc7}
+  journal={Chemistry of Materials},
+  year={2025},
+  volume={},
+  pages={},
+  doi={https://doi.org/10.1021/acs.chemmater.4c03196}
 }
 ```
