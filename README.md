@@ -119,8 +119,8 @@ Please consider citing this work if you use our datasets or codes:
   author={Kumar, Ritesh and Vu, Minh Canh and Ma, Peiyuan and Amanchukwu, Chibueze},
   journal={Chemistry of Materials},
   year={2025},
-  volume={},
-  pages={},
+  volume={37},
+  pages={2720--2734},
   doi={https://doi.org/10.1021/acs.chemmater.4c03196}
 }
 ```
