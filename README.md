@@ -120,7 +120,7 @@ Please consider citing this work if you use our datasets or codes:
   journal={Chemistry of Materials},
   year={2025},
   volume={37},
-  pages={2720--2734},
+  pages={2720-2734},
   doi={https://doi.org/10.1021/acs.chemmater.4c03196}
 }
 ```
